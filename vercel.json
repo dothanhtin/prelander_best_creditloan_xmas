@@ -1,10 +1,15 @@
 {
-  "buildCommand": "echo 'Static files only'",
+  "buildCommand": null,
+  "outputDirectory": ".",
   "cleanUrls": true,
   "rewrites": [
     {
       "source": "/apply",
       "destination": "/apply.html"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
     }
   ]
 }
